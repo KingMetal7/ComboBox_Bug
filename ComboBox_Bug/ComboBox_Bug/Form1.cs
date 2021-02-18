@@ -2,7 +2,7 @@
 using System.ComponentModel;
 using System.Windows.Forms;
 
-/* Run App -> no breakpoints are reached, dispite the BindingList getting changed after all 
+/* Run App -> no events are fired, dispite the BindingList getting changed after all 
  *		Bindings are setup
  * Select Item from combobox manually -> only comboBox1_SelectedIndexChanged gets called,
  *		the databound string Bar doesnt get set
